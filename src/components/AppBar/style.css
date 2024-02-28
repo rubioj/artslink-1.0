@@ -1,0 +1,54 @@
+.app-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 600px;
+}
+
+.app-bar .paper {
+  align-items: flex-start;
+  align-self: stretch;
+  box-shadow: var(--elevation-4);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.app-bar .toolbar-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.app-bar .instance-node {
+  flex: 0 0 auto !important;
+}
+
+.app-bar .menu-filled {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.app-bar .secondary {
+  background-color: var(--palette-secondary-main);
+}
+
+.app-bar .primary {
+  background-color: var(--palette-primary-main);
+}
+
+.app-bar .inherit-white {
+  background-color: var(--palette-background-paper-elevation-4);
+}
+
+.app-bar .transparent {
+  background-color: #ffffff00;
+}
+
+.app-bar .default {
+  background-color: var(--palette-components-appbar-defaultfill);
+}

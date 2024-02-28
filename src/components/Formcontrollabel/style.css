@@ -1,0 +1,17 @@
+.formcontrollabel {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.formcontrollabel .instance-node-2 {
+  flex: 0 0 auto !important;
+}
+
+.formcontrollabel.bottom {
+  flex-direction: column;
+}
+
+.formcontrollabel.top {
+  flex-direction: column;
+}

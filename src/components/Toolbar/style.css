@@ -1,0 +1,60 @@
+.toolbar {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 600px;
+}
+
+.toolbar .left-side {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.toolbar .icon-button-instance {
+  flex: 0 0 auto !important;
+}
+
+.toolbar .min-height {
+  height: 64px;
+  position: relative;
+  width: 1px;
+}
+
+.toolbar .div {
+  margin-right: -1px;
+  position: relative;
+  width: 1px;
+}
+
+.toolbar .icon-instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.toolbar.small-screen-false {
+  padding: 0px var(--sizing-3) 0px var(--sizing-3);
+}
+
+.toolbar.small-screen-true {
+  padding: 0px var(--sizing-2) 0px var(--sizing-2);
+}
+
+.toolbar .regular {
+  height: 56px;
+}
+
+.toolbar .dense {
+  height: 48px;
+}
+
+.toolbar.small-screen-false .left-side {
+  gap: 16px;
+}
+
+.toolbar.small-screen-true .left-side {
+  gap: 24px;
+}

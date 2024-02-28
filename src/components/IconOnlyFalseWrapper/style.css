@@ -1,0 +1,27 @@
+.icon-only-false-wrapper {
+  align-items: center;
+  background-color: var(--palette-background-paper-elevation-0);
+  display: flex;
+  position: relative;
+  width: 500px;
+}
+
+.icon-only-false-wrapper .favorite-filled-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-only-false-wrapper .bottom-navigation-action {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: 56px !important;
+}
+
+.icon-only-false-wrapper .favorite-filled-3 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}

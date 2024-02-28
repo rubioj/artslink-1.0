@@ -1,0 +1,31 @@
+.slidervalue-label {
+  align-items: flex-start;
+  border-radius: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidervalue-label .element {
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.slidervalue-label .active-1-false {
+  color: var(--palette-text-secondary);
+}
+
+.slidervalue-label .active-1-true {
+  color: var(--palette-text-primary);
+}

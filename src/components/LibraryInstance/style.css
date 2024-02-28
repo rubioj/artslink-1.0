@@ -1,0 +1,27 @@
+.library-instance {
+  align-items: center;
+  background-color: #9747ff0a;
+  border: 1px dashed;
+  border-color: #9747ff;
+  border-radius: var(--shape-borderradius);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 42px;
+  position: relative;
+}
+
+.library-instance .text-wrapper-5 {
+  color: #9747ff;
+  font-family: var(--input-helper-font-family);
+  font-size: var(--input-helper-font-size);
+  font-style: var(--input-helper-font-style);
+  font-weight: var(--input-helper-font-weight);
+  letter-spacing: var(--input-helper-letter-spacing);
+  line-height: var(--input-helper-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

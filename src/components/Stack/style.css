@@ -1,0 +1,141 @@
+.stack {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.stack .class {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-2 {
+  flex: 0 0 auto !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-3 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+}
+
+.stack .class-4 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-5 {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack .class-6 {
+  flex: 0 0 auto !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+}
+
+.stack .instance {
+  flex: 0 0 auto !important;
+  margin-bottom: -1px !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
+  margin-top: -1px !important;
+}
+
+.stack.row {
+  flex-direction: column;
+}
+
+.stack.seven {
+  gap: var(--sizing-7);
+}
+
+.stack.two {
+  gap: var(--sizing-2);
+}
+
+.stack.six {
+  gap: var(--sizing-6);
+}
+
+.stack.eight {
+  gap: var(--sizing-8);
+}
+
+.stack.three {
+  gap: var(--sizing-3);
+}
+
+.stack.four {
+  gap: var(--sizing-4);
+}
+
+.stack.five_1 {
+  gap: var(--sizing-5);
+}
+
+.stack.one {
+  flex-direction: column;
+}
+
+.stack.five.one {
+  gap: var(--sizing-1);
+}
+
+.stack.one.three {
+  gap: var(--sizing-1);
+}
+
+.stack.two.column {
+  flex-wrap: wrap;
+}
+
+.stack.three.column {
+  flex-wrap: wrap;
+}
+
+.stack.four.one {
+  gap: var(--sizing-1);
+}
+
+.stack.five.column {
+  flex-wrap: wrap;
+}
+
+.stack.four.column {
+  flex-wrap: wrap;
+}
+
+.stack.one.one {
+  gap: 8px;
+}
+
+.stack.two.one {
+  gap: var(--sizing-1);
+}
+
+.stack.four.zero.column {
+  gap: 0px 0px;
+}
+
+.stack.five.zero.column {
+  gap: 0px 0px;
+}
+
+.stack.three.zero.column {
+  gap: 0px 0px;
+}
+
+.stack.column.zero.two {
+  gap: 0px 0px;
+}

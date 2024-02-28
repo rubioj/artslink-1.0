@@ -1,0 +1,656 @@
+.text-field {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 220px;
+}
+
+.text-field .input {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .temp-label {
+  font-family: var(--input-label-font-family);
+  font-size: var(--input-label-font-size);
+  font-style: var(--input-label-font-style);
+  font-weight: var(--input-label-font-weight);
+  letter-spacing: var(--input-label-letter-spacing);
+  line-height: var(--input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .label {
+  align-self: stretch;
+  position: relative;
+}
+
+.text-field .value {
+  flex: 1;
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .underline {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .input-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .text-wrapper {
+  align-self: stretch;
+  color: var(--palette-text-secondary);
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .label-2 {
+  font-family: var(--input-label-font-family);
+  font-size: var(--input-label-font-size);
+  font-style: var(--input-label-font-style);
+  font-weight: var(--input-label-font-weight);
+  letter-spacing: var(--input-label-letter-spacing);
+  line-height: var(--input-label-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .min-height-2 {
+  height: 24px;
+  position: relative;
+  width: 1px;
+}
+
+.text-field .value-2 {
+  flex: 1;
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .min-height-3 {
+  position: relative;
+}
+
+.text-field .min-width {
+  height: 1px;
+  position: relative;
+  width: 24px;
+}
+
+.text-field .img {
+  left: 0;
+  position: absolute;
+  width: 220px;
+}
+
+.text-field .content-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  min-height: 24px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .text-wrapper-2 {
+  flex: 1;
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .content-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  min-height: 24px;
+  min-width: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-3 {
+  flex: 1;
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .label-container {
+  align-items: center;
+  background-color: var(--palette-background-paper-elevation-0);
+  display: inline-flex;
+  gap: 10px;
+  height: 2px;
+  left: 12px;
+  padding: 0px 4px;
+  position: absolute;
+  top: 0;
+}
+
+.text-field .label-3 {
+  font-family: var(--input-label-font-family);
+  font-size: var(--input-label-font-size);
+  font-style: var(--input-label-font-style);
+  font-weight: var(--input-label-font-weight);
+  letter-spacing: var(--input-label-letter-spacing);
+  line-height: var(--input-label-line-height);
+  margin-bottom: -4px;
+  margin-top: -6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .content-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--palette-components-input-outlined-enabledborder);
+  border-radius: var(--shape-borderradius);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .content-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 16px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.text-field .value-4 {
+  color: var(--palette-text-primary);
+  flex: 1;
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .label-4 {
+  color: var(--palette-text-secondary);
+  font-family: var(--input-label-font-family);
+  font-size: var(--input-label-font-size);
+  font-style: var(--input-label-font-style);
+  font-weight: var(--input-label-font-weight);
+  letter-spacing: var(--input-label-letter-spacing);
+  line-height: var(--input-label-line-height);
+  margin-bottom: -4px;
+  margin-top: -6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .outlined {
+  border-radius: var(--shape-borderradius);
+  padding: 0px 12px;
+}
+
+.text-field .filled {
+  border-radius: var(--shape-borderradius) var(--shape-borderradius) var(--shape-none) var(--shape-none);
+  overflow: hidden;
+}
+
+.text-field .state-9-enabled.outlined {
+  border: 1px solid;
+  border-color: var(--palette-components-input-outlined-enabledborder);
+}
+
+.text-field .state-9-disabled.outlined {
+  border: 1px solid;
+  border-color: var(--palette-components-input-outlined-enabledborder);
+}
+
+.text-field .state-9-hovered.outlined {
+  border: 1px solid;
+  border-color: var(--palette-components-input-outlined-hoverborder);
+}
+
+.text-field .state-9-focused.filled {
+  background-color: var(--palette-components-input-filled-enabledfill);
+}
+
+.text-field .filled.state-9-disabled {
+  background-color: var(--palette-components-input-filled-enabledfill);
+}
+
+.text-field .state-9-focused.outlined {
+  border: 2px solid;
+  border-color: var(--palette-primary-main);
+}
+
+.text-field .filled.state-9-error {
+  background-color: var(--palette-components-input-filled-enabledfill);
+}
+
+.text-field .standard.size-24-medium {
+  gap: 6px;
+}
+
+.text-field .state-9-enabled.filled {
+  background-color: var(--palette-components-input-filled-enabledfill);
+}
+
+.text-field .standard.size-24-small {
+  gap: 4.5px;
+}
+
+.text-field .state-9-error.outlined {
+  border: 1px solid;
+  border-color: var(--palette-error-main);
+}
+
+.text-field .state-9-hovered.filled {
+  background-color: var(--palette-components-input-filled-hoverfill);
+}
+
+.text-field .state-10-hovered {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .state-10-disabled {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .state-10-error {
+  color: var(--palette-error-main);
+}
+
+.text-field .has-value-false {
+  opacity: 0;
+}
+
+.text-field .state-10-enabled {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .state-10-focused {
+  color: var(--palette-primary-main);
+}
+
+.text-field .has-value-0-true {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  min-height: 24px;
+  min-width: 24px;
+  width: 100%;
+}
+
+.text-field .has-value-0-false {
+  font-family: var(--input-value-font-family);
+  font-size: var(--input-value-font-size);
+  font-style: var(--input-value-font-style);
+  font-weight: var(--input-value-font-weight);
+  letter-spacing: var(--input-value-letter-spacing);
+  line-height: var(--input-value-line-height);
+}
+
+.text-field .state-11-enabled.has-value-0-false {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .state-11-focused.has-value-0-false {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .has-value-0-false.state-11-error {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .has-value-0-false.state-11-hovered {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .has-value-0-false.state-11-disabled {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .size-25-medium {
+  gap: 3px;
+}
+
+.text-field .size-25-small {
+  gap: 2px;
+}
+
+.text-field .has-value-1-true.size-25-medium {
+  padding: 9px 12px 8px;
+}
+
+.text-field .has-value-1-false.size-25-small {
+  padding: 12px;
+}
+
+.text-field .size-25-small.has-value-1-true {
+  padding: 6px 12px 4px;
+}
+
+.text-field .has-value-1-false.size-25-medium {
+  padding: 16px 12px;
+}
+
+.text-field .label.state-11-hovered .value {
+  color: var(--palette-text-primary);
+}
+
+.text-field .label.state-11-disabled .value {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .label.state-11-focused .value {
+  color: var(--palette-text-primary);
+}
+
+.text-field .label.state-11-enabled .value {
+  color: var(--palette-text-primary);
+}
+
+.text-field .label.state-11-error .value {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-hovered .underline {
+  height: 2px;
+}
+
+.text-field .input.state-9-disabled .underline {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-9-focused .underline {
+  height: 2px;
+}
+
+.text-field .input.state-9-enabled .underline {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-9-error .underline {
+  height: 2px;
+}
+
+.text-field .input.state-9-hovered .label-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-disabled .label-2 {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .input.state-9-focused .label-2 {
+  color: var(--palette-primary-main);
+}
+
+.text-field .input.state-9-enabled .label-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-error .label-2 {
+  color: var(--palette-error-main);
+}
+
+.text-field .input.state-9-hovered .value-2 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-disabled .value-2 {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .input.state-9-focused .value-2 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-enabled .value-2 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-error .value-2 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-hovered .min-height-3 {
+  height: 1px;
+  width: 24px;
+}
+
+.text-field .input.state-9-disabled .min-height-3 {
+  height: 1px;
+  width: 24px;
+}
+
+.text-field .input.state-9-focused .min-height-3 {
+  height: 24px;
+  width: 1px;
+}
+
+.text-field .input.state-9-enabled .min-height-3 {
+  height: 1px;
+  width: 24px;
+}
+
+.text-field .input.state-9-error .min-height-3 {
+  height: 1px;
+  width: 24px;
+}
+
+.text-field .input.state-9-hovered .img {
+  height: 2px;
+}
+
+.text-field .input.state-9-disabled .img {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-9-error .img {
+  height: 2px;
+}
+
+.text-field .input.state-9-enabled .img {
+  height: 1px;
+  object-fit: cover;
+}
+
+.text-field .input.state-9-focused .img {
+  height: 2px;
+}
+
+.text-field .input.state-9-focused.size-24-medium .img {
+  top: 54px;
+}
+
+.text-field .input.state-9-enabled.size-24-small .img {
+  top: 47px;
+}
+
+.text-field .input.size-24-small.state-9-hovered .img {
+  top: 46px;
+}
+
+.text-field .input.size-24-medium.state-9-disabled .img {
+  top: 55px;
+}
+
+.text-field .input.state-9-hovered.size-24-medium .img {
+  top: 54px;
+}
+
+.text-field .input.state-9-focused.size-24-small .img {
+  top: 46px;
+}
+
+.text-field .input.size-24-small.state-9-disabled .img {
+  top: 47px;
+}
+
+.text-field .input.size-24-small.state-9-error .img {
+  top: 46px;
+}
+
+.text-field .input.size-24-medium.state-9-error .img {
+  top: 54px;
+}
+
+.text-field .input.state-9-enabled.size-24-medium .img {
+  top: 55px;
+}
+
+.text-field .input.size-24-medium .content-2 {
+  padding: 16px 0px;
+}
+
+.text-field .input.size-24-small .content-2 {
+  padding: 8px 0px;
+}
+
+.text-field .input.state-9-hovered .text-wrapper-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-disabled .text-wrapper-2 {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .input.state-9-error .text-wrapper-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-enabled .text-wrapper-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-focused.size-24-medium .text-wrapper-2 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-focused.size-24-small .text-wrapper-2 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.size-24-medium .content-3 {
+  padding: 16px 0px;
+}
+
+.text-field .input.size-24-small .content-3 {
+  padding: 8px 0px;
+}
+
+.text-field .input.state-9-hovered .value-3 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-disabled .value-3 {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .input.state-9-focused .value-3 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-enabled .value-3 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-error .value-3 {
+  color: var(--palette-text-primary);
+}
+
+.text-field .input.state-9-hovered .label-3 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-disabled .label-3 {
+  color: var(--palette-text-disabled);
+}
+
+.text-field .input.state-9-focused .label-3 {
+  color: var(--palette-primary-main);
+}
+
+.text-field .input.state-9-enabled .label-3 {
+  color: var(--palette-text-secondary);
+}
+
+.text-field .input.state-9-error .label-3 {
+  color: var(--palette-error-main);
+}

@@ -1,0 +1,74 @@
+.form-label {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form-label .label-5 {
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.form-label .color-22-error {
+  color: var(--palette-error-main);
+}
+
+.form-label .state-21-error {
+  color: var(--palette-error-main);
+}
+
+.form-label .state-21-enabled.color-22-info {
+  color: var(--palette-info-main);
+}
+
+.form-label .color-22-success.state-21-enabled {
+  color: var(--palette-success-main);
+}
+
+.form-label .color-22-one.state-21-disabled {
+  color: var(--palette-text-disabled);
+}
+
+.form-label .color-22-primary.state-21-enabled {
+  color: var(--palette-primary-main);
+}
+
+.form-label .color-22-secondary.state-21-enabled {
+  color: var(--palette-secondary-main);
+}
+
+.form-label .state-21-disabled.color-22-warning {
+  color: var(--palette-warning-main);
+}
+
+.form-label .color-22-secondary.state-21-disabled {
+  color: var(--palette-secondary-main);
+}
+
+.form-label .color-22-primary.state-21-disabled {
+  color: var(--palette-primary-main);
+}
+
+.form-label .color-22-one.state-21-enabled {
+  color: var(--palette-text-primary);
+}
+
+.form-label .color-22-success.state-21-disabled {
+  color: var(--palette-success-main);
+}
+
+.form-label .state-21-disabled.color-22-info {
+  color: var(--palette-info-main);
+}
+
+.form-label .state-21-enabled.color-22-warning {
+  color: var(--palette-warning-main);
+}

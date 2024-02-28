@@ -1,0 +1,152 @@
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div-3 {
+  background-color: #ffffff;
+  height: 1225px;
+  overflow: hidden;
+  position: relative;
+  width: 430px;
+}
+
+.menu .links-logo-2 {
+  height: 80px;
+  left: 183px;
+  position: absolute;
+  top: 67px;
+  width: 66px;
+}
+
+.menu .overlap-9 {
+  height: 1039px;
+  left: 0;
+  position: absolute;
+  top: 186px;
+  width: 430px;
+}
+
+.menu .blue-brush-3 {
+  height: 605px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 434px;
+  width: 430px;
+}
+
+.menu .brush-brown-5 {
+  height: 561px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+
+.menu .text-wrapper-11 {
+  color: #000000;
+  font-family: "Tisa Sans Pro-Light", Helvetica;
+  font-size: 48px;
+  font-weight: 300;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 56px;
+  position: absolute;
+  top: 693px;
+  width: 376px;
+}
+
+.menu .creativity-meets {
+  color: var(--palette-primary-main);
+  font-family: "Ofelia Text-Light", Helvetica;
+  font-size: 60px;
+  font-weight: 300;
+  height: 215px;
+  left: 27px;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+  position: absolute;
+  text-align: center;
+  top: 392px;
+  width: 391px;
+}
+
+.menu .menu-item-instance {
+  left: 96px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.menu .menu-item-2 {
+  color: var(--palette-text-primary) !important;
+  font-family: var(--typography-h2-font-family) !important;
+  font-size: var(--typography-h2-font-size) !important;
+  font-style: var(--typography-h2-font-style) !important;
+  font-weight: var(--typography-h2-font-weight) !important;
+  letter-spacing: var(--typography-h2-letter-spacing) !important;
+  line-height: var(--typography-h2-line-height) !important;
+}
+
+.menu .menu-item-3 {
+  left: 96px !important;
+  position: absolute !important;
+  top: 93px !important;
+}
+
+.menu .menu-item-4 {
+  left: 96px !important;
+  position: absolute !important;
+  top: 200px !important;
+}
+
+.menu .button-subscribe-2 {
+  height: 57px;
+  left: 18px;
+  position: absolute;
+  top: 3153px;
+  width: 350px;
+}
+
+.menu .overlap-group-6 {
+  height: 56px;
+  position: relative;
+}
+
+.menu .rectangle-2 {
+  background-color: #d3c1a5;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 25px;
+  height: 39px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 294px;
+}
+
+.menu .arrow-redo-wrapper {
+  height: 29px;
+  left: 277px;
+  position: absolute;
+  top: 4px;
+  width: 31px;
+}
+
+.menu .text-wrapper-12 {
+  color: #574a3e;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 350px;
+}

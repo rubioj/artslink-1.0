@@ -1,0 +1,94 @@
+.menu-item {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-item .container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.menu-item .value-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.menu-item .value-5 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu-item.state-0-selected {
+  background-color: var(--palette-primary-states-hover);
+}
+
+.menu-item.state-0-hovered {
+  background-color: var(--palette-action-hover-duplicate);
+}
+
+.menu-item .dis-gutters-true.small-screen-1-true {
+  padding: 12px 0px;
+}
+
+.menu-item .dis-gutters-false.small-screen-1-true {
+  padding: 12px 16px;
+}
+
+.menu-item .dis-gutters-false.dense-false.small-screen-1-false {
+  padding: 6px 16px;
+}
+
+.menu-item .dis-gutters-false.dense-true.small-screen-1-false {
+  padding: 4px 16px;
+}
+
+.menu-item .dense-false.small-screen-1-false.dis-gutters-true {
+  padding: 6px 0px;
+}
+
+.menu-item .dis-gutters-true.dense-true.small-screen-1-false {
+  padding: 4px 0px;
+}
+
+.menu-item .state-25-selected {
+  color: var(--palette-text-primary-duplicate);
+}
+
+.menu-item .state-25-hovered {
+  color: var(--palette-text-primary-duplicate);
+}
+
+.menu-item .dense-0-false {
+  font-family: var(--menu-itemdefault-font-family);
+  font-size: var(--menu-itemdefault-font-size);
+  font-style: var(--menu-itemdefault-font-style);
+  font-weight: var(--menu-itemdefault-font-weight);
+  letter-spacing: var(--menu-itemdefault-letter-spacing);
+  line-height: var(--menu-itemdefault-line-height);
+}
+
+.menu-item .state-25-disabled {
+  color: var(--palette-text-disabled-duplicate);
+}
+
+.menu-item .dense-0-true {
+  font-family: var(--menu-itemdense-font-family);
+  font-size: var(--menu-itemdense-font-size);
+  font-style: var(--menu-itemdense-font-style);
+  font-weight: var(--menu-itemdense-font-weight);
+  letter-spacing: var(--menu-itemdense-letter-spacing);
+  line-height: var(--menu-itemdense-line-height);
+}
+
+.menu-item .state-25-enabled {
+  color: var(--palette-text-primary-duplicate);
+}

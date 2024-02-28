@@ -1,0 +1,27 @@
+.bottom-navigation-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.bottom-navigation-wrapper .bottom-navigation-instance {
+  box-shadow: var(--elevation-1) !important;
+  height: 54px !important;
+  width: 429px !important;
+}
+
+.bottom-navigation-wrapper .design-component-instance-node {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  height: 56px !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+}
+
+.bottom-navigation-wrapper .icon-instance-node-2 {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}

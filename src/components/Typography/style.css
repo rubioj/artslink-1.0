@@ -1,0 +1,166 @@
+.typography {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.typography .body {
+  color: var(--palette-text-primary);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.typography.caption.gutter-bottom-true {
+  padding: 0px 0px 4px;
+}
+
+.typography.h-1.gutter-bottom-true {
+  padding: 0px 0px 34px;
+}
+
+.typography.h-6.gutter-bottom-true {
+  padding: 0px 0px 7px;
+}
+
+.typography.overline.gutter-bottom-true {
+  padding: 0px 0px 4px;
+}
+
+.typography.h-4.gutter-bottom-true {
+  padding: 0px 0px 12px;
+}
+
+.typography.body-2.gutter-bottom-true {
+  padding: 0px 0px 5px;
+}
+
+.typography.subtitle-2.gutter-bottom-true {
+  padding: 0px 0px 5px;
+}
+
+.typography.h-2.gutter-bottom-true {
+  padding: 0px 0px 21px;
+}
+
+.typography.body-1.gutter-bottom-true {
+  padding: 0px 0px 6px;
+}
+
+.typography.h-3.gutter-bottom-true {
+  padding: 0px 0px 17px;
+}
+
+.typography.h-5.gutter-bottom-true {
+  padding: 0px 0px 8px;
+}
+
+.typography.subtitle-1.gutter-bottom-true {
+  padding: 0px 0px 6px;
+}
+
+.typography.h-1 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 96px;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  line-height: 112px;
+}
+
+.typography.h-6 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+}
+
+.typography.caption .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 19.9px;
+}
+
+.typography.h-2 .body {
+  font-family: "Ofelia Text-Semibold", Helvetica;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 72px;
+}
+
+.typography.body-1 .body {
+  font-family: "Ofelia Text-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 30px;
+}
+
+.typography.custom .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.17px;
+  line-height: 24px;
+}
+
+.typography.subtitle-2 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+}
+
+.typography.h-3 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.typography.subtitle-1 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+}
+
+.typography.h-5 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.typography.overline .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 31.9px;
+}
+
+.typography.body-2 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  line-height: 20px;
+}
+
+.typography.h-4 .body {
+  font-family: "Roboto", Helvetica;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 42px;
+}

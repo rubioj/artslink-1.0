@@ -1,0 +1,24 @@
+.custom-forms-email {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 600px;
+}
+
+.custom-forms-email .text-field-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.custom-forms-email .spacing-vertical-instance {
+  flex: 0 0 auto !important;
+}
+
+.custom-forms-email .button-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}

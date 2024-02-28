@@ -1,0 +1,39 @@
+.slider-track {
+  border-radius: 100px;
+}
+
+.slider-track.color-1-secondary {
+  background-color: var(--palette-secondary-main);
+}
+
+.slider-track.color-1-primary {
+  background-color: var(--palette-primary-main);
+}
+
+.slider-track.orientation-horizontal {
+  width: 40px;
+}
+
+.slider-track.color-1-none {
+  background-color: var(--material-colors-grey-400);
+}
+
+.slider-track.orientation-vertical {
+  height: 40px;
+}
+
+.slider-track.size-1-medium.orientation-vertical {
+  width: 6px;
+}
+
+.slider-track.orientation-horizontal.size-1-small {
+  height: 2px;
+}
+
+.slider-track.size-1-small.orientation-vertical {
+  width: 2px;
+}
+
+.slider-track.orientation-horizontal.size-1-medium {
+  height: 6px;
+}

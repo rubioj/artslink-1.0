@@ -1,0 +1,1 @@
+export { SlidervalueLabel } from "./SlidervalueLabel";

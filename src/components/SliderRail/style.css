@@ -1,0 +1,38 @@
+.slider-rail {
+  border-radius: 100px;
+  opacity: 0.38;
+}
+
+.slider-rail.color-0-secondary {
+  background-color: var(--palette-secondary-main);
+}
+
+.slider-rail.color-0-primary {
+  background-color: var(--palette-primary-main);
+}
+
+.slider-rail.horizontal {
+  width: 40px;
+}
+
+.slider-rail.color-0-none {
+  background-color: var(--material-colors-grey-400);
+}
+
+.slider-rail.size-0-medium.vertical {
+  height: 40px;
+  width: 6px;
+}
+
+.slider-rail.horizontal.size-0-small {
+  height: 2px;
+}
+
+.slider-rail.size-0-small.vertical {
+  height: 49px;
+  width: 2px;
+}
+
+.slider-rail.horizontal.size-0-medium {
+  height: 6px;
+}

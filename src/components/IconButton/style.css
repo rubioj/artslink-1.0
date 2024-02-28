@@ -1,0 +1,147 @@
+.icon-button {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-button .icon-instance {
+  flex: 0 0 auto !important;
+}
+
+.icon-button .starsharp-30 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button.size-small {
+  padding: 5px;
+}
+
+.icon-button.size-medium {
+  padding: 8px;
+}
+
+.icon-button.color-inherit.size-large {
+  padding: 12px;
+}
+
+.icon-button.focused.color-inherit {
+  background-color: var(--palette-action-focus);
+}
+
+.icon-button.focused.color-success {
+  background-color: var(--palette-success-focusvisible);
+}
+
+.icon-button.color-primary.hovered {
+  background-color: var(--palette-primary-hover);
+}
+
+.icon-button.focused.color-secondary {
+  background-color: var(--palette-secondary-focusvisible);
+}
+
+.icon-button.color-secondary.size-large {
+  padding: 12px;
+}
+
+.icon-button.size-large.color-warning {
+  padding: 12px;
+}
+
+.icon-button.size-large.disabled {
+  padding: 12px;
+}
+
+.icon-button.hovered.color-inherit {
+  background-color: var(--palette-action-hover);
+}
+
+.icon-button.size-large.color-info {
+  padding: 12px;
+}
+
+.icon-button.hovered.size-large {
+  padding: 12px;
+}
+
+.icon-button.color-default.size-large {
+  padding: 12px;
+}
+
+.icon-button.focused.color-info {
+  background-color: var(--palette-info-focusvisible);
+}
+
+.icon-button.focused.color-inherit-white {
+  background-color: var(--palette-common-white-focus);
+}
+
+.icon-button.color-error.size-large {
+  padding: 12px;
+}
+
+.icon-button.color-error.focused {
+  background-color: var(--palette-error-focusvisible);
+}
+
+.icon-button.enabled.size-large {
+  padding: 12px;
+}
+
+.icon-button.hovered.color-info {
+  background-color: var(--palette-info-hover);
+}
+
+.icon-button.hovered.color-inherit-white {
+  background-color: var(--palette-common-white-hover);
+}
+
+.icon-button.hovered.color-default {
+  background-color: var(--palette-action-hover);
+}
+
+.icon-button.color-success.size-large {
+  padding: 12px;
+}
+
+.icon-button.color-error.hovered {
+  background-color: var(--palette-error-hover);
+}
+
+.icon-button.focused.color-warning {
+  background-color: var(--palette-warning-focusvisible);
+}
+
+.icon-button.focused.color-default {
+  background-color: var(--palette-action-focus);
+}
+
+.icon-button.color-primary.size-large {
+  padding: 12px;
+}
+
+.icon-button.color-success.hovered {
+  background-color: var(--palette-success-hover);
+}
+
+.icon-button.focused.color-primary {
+  background-color: var(--palette-primary-focusvisible);
+}
+
+.icon-button.color-secondary.hovered {
+  background-color: var(--palette-secondary-hover);
+}
+
+.icon-button.hovered.color-warning {
+  background-color: var(--palette-warning-hover);
+}
+
+.icon-button.focused.size-large.color-inherit-white {
+  padding: 8px;
+}

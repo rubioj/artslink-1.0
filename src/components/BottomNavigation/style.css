@@ -1,0 +1,85 @@
+.bottom-navigation {
+  display: inline-flex;
+  position: relative;
+}
+
+.bottom-navigation .tab-one-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  height: 16px;
+  position: relative;
+}
+
+.bottom-navigation .tab-one {
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.bottom-navigation .favorite-filled {
+  height: 24px !important;
+  object-fit: cover !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.bottom-navigation .favoritefilled-22 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.bottom-navigation.label-false {
+  align-items: flex-start;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px 12px 8px;
+}
+
+.bottom-navigation.label-true {
+  align-items: center;
+  flex-direction: column;
+  padding: 6px 12px 8px;
+}
+
+.bottom-navigation.state-0-focused.active-true {
+  background-color: var(--palette-primary-focusvisible);
+}
+
+.bottom-navigation.state-0-focused.active-false {
+  background-color: var(--palette-text-focusvisible);
+}
+
+.bottom-navigation.active-false .tab-one {
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 19.9px;
+  margin-bottom: -3px;
+}
+
+.bottom-navigation.active-true .tab-one {
+  color: var(--palette-primary-main);
+  font-family: var(--bottomnavigation-activelabel-font-family);
+  font-size: var(--bottomnavigation-activelabel-font-size);
+  font-style: var(--bottomnavigation-activelabel-font-style);
+  font-weight: var(--bottomnavigation-activelabel-font-weight);
+  letter-spacing: var(--bottomnavigation-activelabel-letter-spacing);
+  line-height: var(--bottomnavigation-activelabel-line-height);
+  margin-bottom: -6px;
+}
+
+.bottom-navigation.active-false.state-0-disabled .tab-one {
+  color: var(--palette-text-disabled);
+}
+
+.bottom-navigation.state-0-focused.active-false .tab-one {
+  color: var(--palette-text-secondary);
+}
+
+.bottom-navigation.state-0-enabled.active-false .tab-one {
+  color: var(--palette-text-secondary);
+}

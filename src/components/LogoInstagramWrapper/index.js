@@ -1,0 +1,1 @@
+export { LogoInstagramWrapper } from "./LogoInstagramWrapper";

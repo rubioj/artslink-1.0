@@ -1,0 +1,89 @@
+.checkbox {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.checkbox .padding {
+  align-items: flex-start;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 9px;
+  position: relative;
+}
+
+.checkbox .hidden {
+  height: 28px !important;
+  position: relative !important;
+  width: 28px !important;
+}
+
+.checkbox .hidden-106 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.checkbox .hidden-86 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.checkbox .state-focused.color-21-success {
+  background-color: var(--palette-success-focusvisible);
+}
+
+.checkbox .color-21-primary.state-hovered {
+  background-color: var(--palette-primary-hover);
+}
+
+.checkbox .state-focused.color-21-secondary {
+  background-color: var(--palette-secondary-focusvisible);
+}
+
+.checkbox .state-focused.color-21-info {
+  background-color: var(--palette-info-focusvisible);
+}
+
+.checkbox .color-21-error.state-focused {
+  background-color: var(--palette-error-focusvisible);
+}
+
+.checkbox .state-hovered.color-21-info {
+  background-color: var(--palette-info-hover);
+}
+
+.checkbox .state-hovered.color-21-default {
+  background-color: var(--palette-action-hover);
+}
+
+.checkbox .color-21-error.state-hovered {
+  background-color: var(--palette-error-hover);
+}
+
+.checkbox .state-focused.color-21-warning {
+  background-color: var(--palette-warning-focusvisible);
+}
+
+.checkbox .state-focused.color-21-default {
+  background-color: var(--palette-text-focus);
+}
+
+.checkbox .color-21-success.state-hovered {
+  background-color: var(--palette-success-hover);
+}
+
+.checkbox .state-focused.color-21-primary {
+  background-color: var(--palette-primary-focusvisible);
+}
+
+.checkbox .color-21-secondary.state-hovered {
+  background-color: var(--palette-secondary-hover);
+}
+
+.checkbox .state-hovered.color-21-warning {
+  background-color: var(--palette-warning-hover);
+}
